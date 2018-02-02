@@ -1,5 +1,6 @@
 ﻿### This script is made for deploying Sysmon across the network, This requires some GPO's for scheduled tasks etc
 ### This also backs up the security and sysmon logs to a server instead of storing them locally on the PC
+#
 
 
 $SysmonServerPath = "" #Enter Share path here. e.g. \\SysmonServer\Sysmon
